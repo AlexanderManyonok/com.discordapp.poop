@@ -21,9 +21,8 @@ public class LoginPage extends BasePage {
     @FindBy(how = How.CLASS_NAME, using = "marginBottom8-AtZOdT button-3k0cO7 button-38aScr lookFilled-1Gx00P colorBrand-3pXr91 sizeLarge-1vSeWK fullWidth-1orjjo grow-q77ONN")
     private WebElement submitLoginButton;
 
-    String email = "A.manyonokita+1@gmail.com";
-    String username = "Petrarka";
-    String password = "Qwerty@1";
+    String email = "";
+    String password = "";
 
     public void emailInput() {
         element(emailPlaceholder).sendKeys(email);
